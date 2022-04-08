@@ -22,9 +22,9 @@ public class Main {
 
         int Aulas;
         ArrayList<String> residencia = new ArrayList();
-        residencia.add("Aula Equações");
-        residencia.add("Aula Geometria");
-        residencia.add("Aula Fatorial");
+        aula.add("Aula Equações");
+        aula.add("Aula Geometria");
+        aula.add("Aula Fatorial");
         
 
 
