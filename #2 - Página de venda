@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>Precisa preencher os cômodos da sua casa? Aqui temos os móveis certos, e pelo preço certo para você! Se cadastre e obtenha mais detalhes.</title>
+
+    private Double Desconto;
+    private Date vencimento;
+    private String nomeFornecedor;
+    private String notaFiscal;
+    private Integer numeroCheque;
+    private Date prazoEntrega;
+
+    <meta charset="UTF-8">
+
+<p informações de login p></p>
+<form>
+<label>Nome</label> <input type="Text" />
+<p> Raniel Santana de Vasconcelos </p>
+<label>E-mail</label> <input type="text" />
+<p> ranielvas99@gmail.com
+<label>Telefone</label> <input type="text" />
+<p> (21) 2430-6168
+<button>Confirmar</button>
+</form>
