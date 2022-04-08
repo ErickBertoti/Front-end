@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <img src=”images/logo.png” alt=”some text” width=300 height=200>
+
+    <title>Venha para o Sesi Senai!</title>
+</head>
+<body>
+
+    <footer>
+        Um ensino que promove o aprendizado a partir da prática, com atividades mão na massa que despertam competências essencias para o jovem desde século nas áreas de robótica, mídias e ciências<article>?
+    </footer>
+
+<meta charset="UTF-8">
+
+    <p faça seu cadastro abaixo. p></p>
+    <form>
+        <label>Nome</label> <input type="text" />
+        <label>E-mail</label> <input type="text" />
+        <label>Telefone</label> <input type="text" />
+        <button>Enviar</button>
+    </form>
+</fieldset>
+
+</body>
+</html>
