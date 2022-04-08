@@ -1,0 +1,85 @@
+//Main java
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Main {
+    public Main() {
+    }
+
+    public String toString() {
+        return "Main{}";
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    public static void main(String[] args) {
+        new Scanner(System.in);
+
+        int Aulas;
+        ArrayList<String> residencia = new ArrayList();
+        residencia.add("Aula Equações");
+        residencia.add("Aula Geometria");
+        residencia.add("Aula Fatorial");
+        
+
+
+
+    }
+}
+
+//Aulas.java
+
+public class Aula {
+
+    private int id;
+    private String Título;
+    private String Conteúdo;
+
+    public Aula(int id) {
+        this.id = id;
+    }
+
+    public Aula(String título) {
+        Título = título;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTítulo() {
+        return Título;
+    }
+
+    public void setTítulo(String título) {
+        Título = título;
+    }
+
+    public String getConteúdo() {
+        return Conteúdo;
+    }
+
+    public void setConteúdo(String conteúdo) {
+        Conteúdo = conteúdo;
+    }
+
+    @Override
+    public String toString() {
+        return "Aula{" +
+                "id=" + id +
+                ", Título='" + Título + '\'' +
+                ", Conteúdo='" + Conteúdo + '\'' +
+                '}';
+    }
+}
+
+
