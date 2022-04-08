@@ -1,0 +1,62 @@
+<header>
+    <h2>Curso de Matemática</h2>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Curso de matemática</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Vagas</a>
+     </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    <div class="container">
+    <footer>
+      <ul>
+        <li>
+          Nome
+          <input type="text"><button onclick="funcao1()">Enviar</button>
+        <p id="demo"></p>
+      </li>
+      <li>
+          E-mail
+          <input type="text"><button onclick="funcao1()">Enviar</button>
+        <p id="demo"></p>
+      </li>
+      <li>
+          Senha
+          <input type="text"><button onclick="funcao1()">Enviar</button>
+        <p id="demo"></p>
+
+        </li>
+      </ul>
+  </footer>
+    <script>
+      function funcao1()
+      {
+      var x;
+      var r=confirm("Enviado!");
+      if (r==true)
+        {
+        x="voce pressionou OK!";
+        }
+      else
+        {
+        x="Voce pressionou Cancelar!";
+        }
+      document.getElementById("demo").innerHTML=x;
+      }
+      </script>
+      <script src="./js/popper.min.js"></script>
+    <script src="./bootstrap-5.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap-5.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/estilo.css">
